@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
        recyclerView.setLayoutManager(layoutManager);
        recyclerView.setHasFixedSize(true);
-
+//Every bit of happiness
+       //Some changes made as comment
 
        apiInterface = APIClient.getRetrofit().create(APIInterface.class);
         Log.d("oncreate","hkhhdhf");
